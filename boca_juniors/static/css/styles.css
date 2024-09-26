@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para el header y la navegación */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Para alinear horizontalmente */
+    justify-content: flex-end; /* Para mover la lista a la derecha */
+}
+
+nav ul li {
+    margin-left: 20px; /* Espacio entre los elementos de la lista */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Efecto hover para los enlaces */
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #FFD700; /* Color dorado para los títulos */
+}
+
+button {
+    background-color: #FFD700;
+    color: #0033A0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFC107;
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
